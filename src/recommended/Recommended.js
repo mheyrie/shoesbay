@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/recommended.Recommended'
+import '../styles/recommended/Recommended.css'
 
 function Recommended() {
   return (

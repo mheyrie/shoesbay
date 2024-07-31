@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/commons/Buttons.css'
 
 function Buttons() {
   return (
