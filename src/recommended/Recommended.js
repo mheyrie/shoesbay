@@ -2,10 +2,8 @@ import React from "react";
 import "../styles/recommended/Recommended.css";
 import Button from "../common/Button";
 
-function Recommended() {
-  const handleClick = () => {
-    alert('Button clicked!');
-  }
+function Recommended({handleClick}) {
+ 
   return (
     <>
       <div className="recommended-container">

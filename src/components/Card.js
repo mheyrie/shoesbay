@@ -3,11 +3,11 @@ import '../styles/components/Cards.css'
 import { AiFillStar } from "react-icons/ai";
 import { BsFillBagHeartFill } from "react-icons/bs";
 
-function Card() {
+function Card({ img, title, star, reviews, prevPrice, newPrice }) {
   return (
     <section className="product">
         <img
-          src="https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg"
+          src={img}
           alt="shoes"
           className="product-img"
         />
