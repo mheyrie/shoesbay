@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/category.Colors.css'
+import '../../styles/sidebar/Colors.css'
 
 function Colors() {
   return (

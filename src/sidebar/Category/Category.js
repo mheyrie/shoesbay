@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/category.Category.css'
+import '../../styles/sidebar/Category.css'
 
 function Category() {
   return (
