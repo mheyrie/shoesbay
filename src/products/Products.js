@@ -1,10 +1,38 @@
-import React from 'react'
-import '../styles/products/Products.css'
+import React from "react";
+import "../styles/products/Products.css";
+import { AiFillStar } from "react-icons/ai";
+import { BsFillBagHeartFill } from "react-icons/bs";
 
 function Products() {
   return (
-    <div>Products</div>
-  )
+    <section className="product-container">
+      <section className="product">
+        <img
+          src="https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg"
+          alt="shoes"
+          className="product-img"
+        />
+        <div className="product-details">
+          <h3 className="product-title">Shoes</h3>
+          <section className="product-review">
+            <AiFillStar style={{ color: "orange" }} />
+            <AiFillStar style={{ color: "orange" }} />
+            <AiFillStar style={{ color: "orange" }} />
+            <AiFillStar style={{ color: "orange" }} />
+            <span className="total-reviews">4</span>
+          </section>
+          <section className="card-price">
+            <div className="price">
+              <del>$300</del> $200
+            </div>
+            <div className="bag">
+              <BsFillBagHeartFill/>
+            </div>
+          </section>
+        </div>
+      </section>
+    </section>
+  );
 }
 
-export default Products
+export default Products;
