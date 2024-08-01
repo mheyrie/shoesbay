@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    border-bottom: 2px solid firebrick;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    z-index: 999;
+    margin-left: 2rem;
+}
+
+input{
+    padding: 10px 25px;
+    border: none;
+}
