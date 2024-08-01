@@ -5,10 +5,21 @@ nav{
     align-items: center;
     padding: 20px;
     z-index: 999;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 
 input{
     padding: 10px 25px;
     border: none;
+    background: rgb(204, 193, 193);
+    border-radius: 5px;
+    outline: none;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.nav-icons{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2rem;
 }
