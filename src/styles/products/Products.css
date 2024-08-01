@@ -8,11 +8,44 @@
 
 .product{
     margin: 20px;
-    border: 2px solid rgb(223, 218, 218);
+    border: 1px solid rgb(223, 218, 218);
     cursor: pointer;
     padding: 20px;
 }
 
 .product-img{
-    
+    width: 13rem;
+    margin-bottom: 1rem;
+}
+
+.product-title{
+    margin-bottom: 1rem;
+}
+
+.product-review{
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.rating-star{
+    color: orange;
+}
+
+.total-reviews{
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.product-price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.price{
+    font-size: 0.9rem;
+}
+
+.bag-icon{
+    color: rgb(86, 91, 95);
 }

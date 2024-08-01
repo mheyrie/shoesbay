@@ -15,18 +15,18 @@ function Products() {
         <div className="product-details">
           <h3 className="product-title">Shoes</h3>
           <section className="product-review">
-            <AiFillStar style={{ color: "orange" }} />
-            <AiFillStar style={{ color: "orange" }} />
-            <AiFillStar style={{ color: "orange" }} />
-            <AiFillStar style={{ color: "orange" }} />
+            <AiFillStar className="rating-star" />
+            <AiFillStar className="rating-star" />
+            <AiFillStar className="rating-star" />
+            <AiFillStar className="rating-star" />
             <span className="total-reviews">4</span>
           </section>
-          <section className="card-price">
+          <section className="product-price">
             <div className="price">
               <del>$300</del> $200
             </div>
             <div className="bag">
-              <BsFillBagHeartFill/>
+              <BsFillBagHeartFill className="bag-icon"/>
             </div>
           </section>
         </div>
