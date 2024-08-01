@@ -1,0 +1,71 @@
+.price-title{
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.ml{
+    margin-left: 20px;
+}
+
+.price-items{
+    margin-bottom: 20px;
+}
+
+.price-label-container{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.price-label-container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.price-label-container:hover input ~ .checkmark{
+    background-color: red;
+}
+
+.price-label-container input:checked ~ .checkmark{
+    background-color: #2d0796;
+}
+
+.checkmark::after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.price-label-container input:checked ~.checkmark::after{
+    display: block;
+}
+
+.price-label-container .checkmark::after{
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.line{
+    margin-top: 3rem;
+    border-color: #f7f7f7;
+}
