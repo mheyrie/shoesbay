@@ -2,15 +2,17 @@ import React from "react";
 import "../styles/commons/Buttons.css";
 import PropTypes from "prop-types";
 
-const Button = ({ onClick, type, className, disabled, children }) => {
+const Button = ({ value, title, onClick, type, className, disabled, children }) => {
   return (
     <button
       type={type || "button"}
       className={`btn ${className} ${disabled ? "btn-disabled" : ""}`}
       onClick={onClick}
       disabled={disabled}
+      value={value}
+      title={title}
     >
-      {children}
+      {title||children}
     </button>
   );
 };
@@ -20,6 +22,8 @@ Button.propTypes = {
   className: PropTypes.string,
   disabled: PropTypes.bool,
   children: PropTypes.node.isRequired,
+  value: PropTypes.string,
+  title: PropTypes.string
 };
 
 Button.defaultProps = {
@@ -27,6 +31,8 @@ Button.defaultProps = {
   type: 'button',
   className: '',
   disabled: false,
+  value: '',
+  title: ''
 };
 
 
