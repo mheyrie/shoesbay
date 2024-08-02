@@ -4,8 +4,7 @@ import Category from "./Category/Category";
 import Price from "./Price/Price";
 import Colors from "./Colors/Colors";
 
-function Sidebar({handleChange}) {
-  console.log(handleChange)
+function Sidebar({ handleChange }) {
   return (
     <>
       <section className="sidebar">
