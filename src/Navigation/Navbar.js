@@ -3,7 +3,7 @@ import "../styles/navigation/Navbar.css";
 import { FiHeart } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlineUserAdd} from "react-icons/ai";
 
-function Navbar() {
+function Navbar({handleInputChange, query}) {
   return (
     <nav>
       <div className="nv-container">
@@ -11,6 +11,7 @@ function Navbar() {
           type="text"
           className="search-input"
           placeholder="Enter your shoes name to search"
+          onChange={handleInputChange} value={query} 
         />
       </div>
       <div className="profile-container">
