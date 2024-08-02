@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shoesbay/static/css/main.36f4f785.css",
+    "main.js": "/shoesbay/static/js/main.fc402557.js",
+    "index.html": "/shoesbay/index.html",
+    "main.36f4f785.css.map": "/shoesbay/static/css/main.36f4f785.css.map",
+    "main.fc402557.js.map": "/shoesbay/static/js/main.fc402557.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36f4f785.css",
+    "static/js/main.fc402557.js"
+  ]
+}
